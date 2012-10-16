@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME                => 'Dancer::Plugin::Auth::Krb5',
-    AUTHOR              => q{Hypo Lin <hypo.lin@gmail.com>},
+    AUTHOR              => q{Hypo Lin <hlin@cpan.org>},
     VERSION_FROM        => 'lib/Dancer/Plugin/Auth/Krb5.pm',
     ABSTRACT_FROM       => 'lib/Dancer/Plugin/Auth/Krb5.pm',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002

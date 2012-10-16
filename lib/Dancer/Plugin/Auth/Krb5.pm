@@ -1,6 +1,6 @@
 package Dancer::Plugin::Auth::Krb5;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use 5.006;
 use strict;
@@ -70,7 +70,7 @@ Dancer::Plugin::Auth::Krb5 - kerberos authentication for Dancer web apps
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -98,13 +98,7 @@ reference L<Dancer::Session> for 'SessionEngine'
 
     use Dancer::Plugin::Auth::Krb5;
 
-    my $auth = krb5_auth(params->{'name'}, params->{'pass'});
-
-=head2 user
-
-    $auth->user;
-
-return username
+    my $auth = krb5_auth($username, $password);
 
 =head2 user
 
@@ -132,7 +126,7 @@ return realm
 
 =head1 AUTHOR
 
-Hypo Lin, C<< <hypo.lin at gmail.com> >>
+Hypo Lin, C<< <hlin at cpan.org> >>
 
 =head1 BUGS
 

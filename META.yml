@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:               Dancer-Plugin-Auth-Krb5
-version:            0.01
+version:            0.02
 abstract:           kerberos authentication for Dancer web apps
 author:
-    - Hypo Lin <hypo.lin@gmail.com>
+    - Hypo Lin <hlin@cpan.org>
 license:            perl
 distribution_type:  module
 configure_requires:
